@@ -7,8 +7,8 @@ if($_POST){
 
 
 
-  $conn = new mysqli('localhost' , 'root' , '', 'horarios');
-
+  //$conn = new mysqli('localhost' , 'root' , '', 'horarios');
+    $conn = new mysqli('gmgcjwawatv599gq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' , 'ujxk5mvlgl7433u7' , 'emw0bcwv81427kfo', 'h9otz7j56fr0fro8');
 
   $q_select= "SELECT * FROM usuario WHERE mailUsuario = '$username' and passwordUsuario = '$password'";
 
