@@ -91,3 +91,7 @@ margin-left: 4px;
 .error{
 	color: white;
 }
+
+.table,.table td,.table th{
+	border: 0.25px solid black;
+}
